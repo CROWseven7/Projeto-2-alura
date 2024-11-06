@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'poppinsblack';
+  src: url('../Components/Fonts/Poppins-Black.woff') format('woff'),
+       url('../Components/Fonts/Poppins-Black.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'poppinsregular';
+  src: url('../Components/Fonts/Poppins-Regular.woff') format('woff'),
+       url('../Components/Fonts/Poppins-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
