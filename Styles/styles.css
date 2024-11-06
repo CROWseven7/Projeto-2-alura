@@ -3,4 +3,14 @@ body {
   color: white;
   font-family: "poppinsregular";
   display: flex;
+  align-items: center;
+  height: 700px;
+  margin: 0;
+  
+}
+
+button {
+  background-color: green;
+  color: white;
+  font-family: "poppinsregular";
 }
