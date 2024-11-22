@@ -3,9 +3,10 @@ body {
   color: white;
   font-family: "poppinsregular";
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  height: 200%;
+  align-items: center;
+  height: 100vh;
   margin: 0;
 }
 
