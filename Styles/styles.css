@@ -10,7 +10,7 @@ body {
 }
 
 button {
-  background-color: darkgray;
+  background-color: rgb(60,60,60);
   color: white;
   font-family: "poppinsregular";
 }
