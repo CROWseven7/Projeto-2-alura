@@ -22,10 +22,8 @@ button {
 .passo {
   display: none;
   text-align: center;
-  width: 90%;  /* Limita a largura do texto */
-  max-width: 600px;  /* Pode ajustar o valor conforme necessário */
-  word-wrap: break-word;  /* Faz com que as palavras que não cabem quebrem para a linha seguinte */
-  padding: 0 20px;  /* Adiciona algum espaço nas laterais */
+  width: 90%;
+  max-width: 60%;
 }
 
 .passo.ativo {
