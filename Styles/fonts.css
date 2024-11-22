@@ -1,12 +1,4 @@
 @font-face {
-  font-family: 'poppinsblack';
-  src: url('../Fonts/Poppins-Black.woff') format('woff'),
-       url('../Fonts/Poppins-Black.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
   font-family: 'poppinsregular';
   src: url('../Fonts/Poppins-Regular.woff') format('woff'),
        url('../Fonts/Poppins-Regular.woff2') format('woff2');
