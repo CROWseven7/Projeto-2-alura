@@ -28,6 +28,8 @@ main {
   max-width: 90%;
 }
 
-img {
+body img {
   max-width: 90%;
+  display: flex;
+  align-items: center;
 }
