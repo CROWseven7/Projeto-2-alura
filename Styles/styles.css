@@ -14,6 +14,9 @@ button {
   background-color: rgb(60, 60, 60);
   color: white;
   font-family: "poppinsregular";
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
 }
 
 .passo {
@@ -32,13 +35,14 @@ main {
   flex-direction: column;
   align-items: center;
   margin-top: 10%;
+  width: 100%;
 }
 
 body img {
-  max-width: 90%;
-  max-height: 80vh;
+  max-width: 80%; /* Ajusta o tamanho máximo das imagens */
+  max-height: 70vh; /* Limita a altura máxima das imagens */
   display: block;
-  margin: 0 auto;
+  margin: 10px auto; /* Adiciona um pequeno espaçamento ao redor da imagem */
 }
 
 .NeutralEnd {
