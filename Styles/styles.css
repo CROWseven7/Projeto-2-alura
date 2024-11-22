@@ -22,6 +22,10 @@ button {
 .passo {
   display: none;
   text-align: center;
+  width: 90%;  /* Limita a largura do texto */
+  max-width: 600px;  /* Pode ajustar o valor conforme necessário */
+  word-wrap: break-word;  /* Faz com que as palavras que não cabem quebrem para a linha seguinte */
+  padding: 0 20px;  /* Adiciona algum espaço nas laterais */
 }
 
 .passo.ativo {
@@ -39,10 +43,24 @@ main {
 }
 
 body img {
-  max-width: 80%; /* Ajusta o tamanho máximo das imagens */
-  max-height: 70vh; /* Limita a altura máxima das imagens */
   display: block;
-  margin: 10px auto; /* Adiciona um pequeno espaçamento ao redor da imagem */
+  margin: 10px auto;
+}
+
+#passo-0 img {
+  max-width: 90%;
+  max-height: 80vh;
+}
+
+#passo-1 img,
+#passo-2 img,
+#passo-3 img,
+#passo-4 img,
+#passo-5 img,
+#passo-7 img,
+#passo-8 img {
+  max-width: 70%;
+  max-height: 60vh;
 }
 
 .NeutralEnd {
