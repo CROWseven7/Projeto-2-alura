@@ -33,3 +33,7 @@ body img {
   display: flex;
   align-items: center;
 }
+
+.end {
+  color: darkgray;
+}
