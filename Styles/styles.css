@@ -4,18 +4,20 @@ body {
   font-family: "poppinsregular";
   display: flex;
   align-items: center;
+  justify-content: center; /* Centraliza todo o conteúdo na tela */
   height: 200%;
-  
+  margin: 0;
 }
 
 button {
-  background-color: rgb(60,60,60);
+  background-color: rgb(60, 60, 60);
   color: white;
   font-family: "poppinsregular";
 }
 
 .passo {
   display: none;
+  text-align: center; /* Garante que o conteúdo dentro de cada passo seja centralizado */
 }
 
 .passo.ativo {
@@ -25,16 +27,19 @@ button {
 main {
   text-align: center;
   max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza o conteúdo dentro do main */
 }
 
 body img {
   max-width: 100%;
-  display: flex;
-  align-items: center;
+  display: block; /* Remove o comportamento de inline e permite a centralização com o container */
+  margin: 0 auto; /* Centraliza a imagem dentro do seu container */
 }
 
 .NeutralEnd {
-  color lightgray;
+  color: lightgray;
 }
 
 .BadEnd {
