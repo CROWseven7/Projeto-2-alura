@@ -34,6 +34,14 @@ body img {
   align-items: center;
 }
 
-.GoodEnd {
+.NeutralEnd {
   color: darkgray;
+}
+
+.BadEnd {
+  color: red;
+}
+
+.GoodEnd {
+  color: lightgreen;
 }
